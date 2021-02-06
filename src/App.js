@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Button from '@material-ui/core/Button'
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,16 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <section id="button-groups">
+          <h1>
+            Grupo de botões do materialui
+          </h1>
+          <div className="button-groups">
+            <Button variant="contained">Home</Button>
+          </div>
+        </section>
+      </main>
     </div>
   );
 }
